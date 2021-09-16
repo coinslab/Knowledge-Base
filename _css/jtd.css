@@ -25,8 +25,9 @@ body {
   font-family: -apple-system, "helvetica neue", helvetica, roboto, noto, "segoe ui", arial, sans-serif;
   font-size: inherit;
   line-height: 1.5;
-  color: #5c5962;
+  color:#1B1B1B;
   background-color: #fff;
+  font-size: 16px;
 }
 
 @media (min-width: 50rem) {
@@ -657,3 +658,11 @@ franklin-toc {
 .resultCount { color: #808080; }
 .result-query { font-weight: bold; }
 #lunrSearchForm { margin-top: 1em; }
+
+.note {
+  background-color: aliceblue;
+  border-left: 5px solid cornflowerblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1em;
+}
