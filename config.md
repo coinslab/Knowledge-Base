@@ -1,13 +1,15 @@
 <!--
 Add here global page variables to use throughout your website.
 
-@def prepare = "Knowledge-Base"
+
 
 -->
 
 +++
-author = "Septimia Zenobia"
+author = "COINS Lab"
 mintoclevel = 2
+
+prepath = "Knowledge-Base"
 
 # Add here files or directories that should be ignored by Franklin, otherwise
 # these files might be copied and, if markdown, processed by Franklin which
