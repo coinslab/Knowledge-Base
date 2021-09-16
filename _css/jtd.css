@@ -164,7 +164,8 @@ SIDE BAR
   z-index: 100;
   display: flex;
   flex-wrap: wrap;
-  background-color: #f5f6fa;
+  background-color:white;
+
 }
 
 .side-bar .header {
@@ -648,3 +649,11 @@ franklin-toc {
   margin: 0.6rem 0;
 }
 }
+
+
+.result-title a { text-decoration: none; }
+.result-title a:hover { text-decoration: underline; }
+.result-preview { color: #808080; }
+.resultCount { color: #808080; }
+.result-query { font-weight: bold; }
+#lunrSearchForm { margin-top: 1em; }
