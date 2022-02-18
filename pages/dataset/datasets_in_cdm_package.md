@@ -6,7 +6,7 @@ Datasets in CDM Package
 **The datasets in the file are referred from
 <https://cloud.r-project.org/web/packages/CDM/CDM.pdf>**
 
-``` r
+``` 
 library(CDM)
 ```
 
@@ -21,7 +21,7 @@ library(CDM)
     ## ** Cognitive Diagnostic Models  **
     ## **********************************
 
-``` r
+``` 
 library(tidyverse)
 ```
 
@@ -58,7 +58,7 @@ library(tidyverse)
 
 ## Q matrix \[20x9\]
 
-``` r
+``` 
 Q <- fraction.subtraction.qmatrix %>% as_tibble(rownames = "item")
 str(Q %>% select(-item))
 ```
@@ -76,7 +76,7 @@ str(Q %>% select(-item))
 
 ## X matrix \[536x20\]
 
-``` r
+``` 
 X <- fraction.subtraction.data[,Q$item] %>% as_tibble(rownames = "s_id")
 str(X %>% select(-s_id))
 ```
@@ -128,7 +128,7 @@ str(X %>% select(-s_id))
 
 ## Q matrix \[26x8\]
 
-``` r
+``` 
 Q <- data.pisa00R.ct$q.matrix %>% as_tibble(rownames = "item")
 str(Q %>% select(-item))
 ```
@@ -145,7 +145,7 @@ str(Q %>% select(-item))
 
 ## X matrix \[1095x26\]
 
-``` r
+``` 
 X <- data.pisa00R.ct$data[, Q$item]%>% as_tibble(rownames = "s_id")
 str(X %>% select(-s_id))
 ```
