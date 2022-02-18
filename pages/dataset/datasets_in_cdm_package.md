@@ -1,3 +1,5 @@
+@def title = "COINS Lab Knowledge Base | CDM Datasets" @def tags = ["syntax", "code"]
+
 Datasets in CDM Package
 ================
 
